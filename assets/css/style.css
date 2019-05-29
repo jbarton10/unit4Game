@@ -1,24 +1,47 @@
+body{
+    background-image: url("./../images/background.jpg");
+}
 #firstRandom,#secondRandom,#thirdRandom,#forthRandom{
-    border:2px solid black;
+    border:2px solid white;
     width:200px;
     height:200px;
     margin: 10px 0px 40px 0px;
 }
 #playerGoalOuter,#playerTotalOuter{
-    border:2px solid black;
+    border:2px solid white;
     width:200px;
     height:200px;
     margin: 0px auto;
     text-align: center;
+    font-size: 25px;
+    background:grey;
     
 }
 #playerGoal,#playerTotal{
     margin:65px auto;
     font-size: 20px;
+    
 
 
 }
 #titleBlock{
     margin:0px auto;
+    background: grey;
+    width:100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-bottom:2px solid white;
 
+}
+#winOrLose{
+    border:2px solid white;
+    widows: 200px;
+    height:200px;
+    margin-top: 20px;
+    background:grey;
+}
+#winner,#loser{
+    height:50px;
+    width:70px;
 }
